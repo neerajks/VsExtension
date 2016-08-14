@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+[Pp]ublish*/
+[Dd]ebug*/
+obj*/
+
