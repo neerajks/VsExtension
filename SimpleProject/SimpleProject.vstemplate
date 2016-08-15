@@ -16,7 +16,7 @@
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" OpenInEditor="true">Class1.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false" OpenInEditor="false">packages.config</ProjectItem>
+      <!--<ProjectItem ReplaceParameters="false" OpenInEditor="false">packages.config</ProjectItem>-->
     </Project>
   </TemplateContent>
   <WizardExtension>
@@ -24,8 +24,8 @@
     <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
   </WizardExtension>
   <WizardData>
-    <packages repository="extension" repositoryId="SimpleExtension..da955f0d-dfb3-43cc-bdbb-b846aacb6c43" isPreUnzipped="true">
-      <package id="SimpleLibrary" version="1.0.0" />
+    <packages repository="extension" repositoryId="SimpleExtension..da955f0d-dfb3-43cc-bdbb-b846aacb6c43" >
+      <package id="LibsPackage" version="1.0.0"  />
     </packages>
   </WizardData>
 </VSTemplate>

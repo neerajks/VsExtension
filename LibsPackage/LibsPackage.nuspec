@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LibsPackage</id>
+    <version>1.0.0</version>
+    <authors>neeraj</authors>
+    <owners>neeraj</owners>
+    <licenseUrl>http://colour-palette.blogspot.in</licenseUrl>
+    <projectUrl>http://colour-palette.blogspot.in</projectUrl>
+    <iconUrl>https://www.nuget.org/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Libraries Package </description>
+    <releaseNotes>This is just a simple trial of library inclusion.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>VSIX Nuget</tags>
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>
