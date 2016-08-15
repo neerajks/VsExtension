@@ -16,5 +16,8 @@
     <dependencies>
       <dependency id="SampleDependency" version="1.0" />
     </dependencies>
+    <references>
+      <reference file="SimpleLibrary.dll"></reference>
+    </references>
   </metadata>
 </package>
