@@ -1,2 +1,2 @@
 # newTestRepository
-newTestRepository Learning git
+Repository contains a simple example of VsExtension
